@@ -1,0 +1,13 @@
+/target/
+reports/*
+!reports/.gitkeep
+web_drivers/*
+!web_drivers/.gitkeep
+src/config.robot
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/sim-team1.iml
+/.idea/vcs.xml
+.project
+/.spyproject
