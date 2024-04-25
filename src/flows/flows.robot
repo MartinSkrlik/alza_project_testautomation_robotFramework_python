@@ -108,9 +108,13 @@ Alza4 Practice Flow
     Close Browser
 
 Alza5 Practice Flow
-    [Arguments]    ${browser}   ${page}     ${timeouts}     ${texttext}
+    [Arguments]    ${browser}   ${page}     ${timeouts}     ${item_name}
     Open and Maximize Browser   ${browser}
     Go to Webside   ${page}
-    If PopUp Appears Then Close it
-    Set text into textfield     ${timeouts}     ${texttext}
+    Close popup cokies
+    Put text into textfield and pick item   ${item_name}    ${timeouts}
+
+
+
+
     Close Browser

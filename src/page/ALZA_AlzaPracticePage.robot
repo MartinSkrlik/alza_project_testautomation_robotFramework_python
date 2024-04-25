@@ -62,5 +62,5 @@ ${Payment_method_info}              //td[@class='text']/span
 ${Summary_price_to_pay}             (//div[@id='priceSummary']//span)[4]
 
 #Alza5
-${textfield2}                       //input[@style="width:100%"]
+${textfield2}                       //input[@data-testid='searchInput']
 ${buttonsearch2}                    //button[contains(@data-testid,'search')]

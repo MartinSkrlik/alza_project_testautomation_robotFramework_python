@@ -52,7 +52,7 @@ Alza5 Practice
     [Tags]  Full-test
     Alza5 Practice Flow  browser=${BROWSER}     page=${ALZA}
                 ...      timeouts=10s
-                ...      texttext=rosefield
+                ...      item_name=ROSEFIELD The West Village WBUG - W70
 
 
 

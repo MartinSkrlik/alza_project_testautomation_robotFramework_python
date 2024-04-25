@@ -32,6 +32,12 @@ If PopUp Appears Then Close it
     Run Keyword If    ${value} > 0      Click Element       ${Understand_Pop_Up}
     Custom Screenshot   Page
 
+Close popup cokies  # the same like step "If PopUp Appears Then Close it"
+    Custom Tag  Close Popup Cokies
+    ${value}=   Get Element Count   ${Understand_Pop_Up}
+    Run Keyword If    ${value} > 0      Click Element    ${Understand_Pop_Up}
+    Custom Screenshot   Page
+
 Search for Item
     [Arguments]    ${item}      ${timeouts}
     Custom Tag      Search for Item
@@ -376,3 +382,11 @@ Set text into textfield
     Input Text    ${textfield2}     ${texttext}
     Textfield Value Should Be   ${textfield2}   ${texttext}
     Click Element   ${buttonsearch2}
+
+Put text into textfield and pick item
+    [Arguments]     ${item_name}        ${timeouts}
+    Custom Tag  Put Text Into Textfield And Pick Item
+    Wait Until Page Contains Element    ${textfield2}   ${timeouts}
+    Input Text    ${textfield2}     ${item_name}
+    Textfield Value Should Be    ${textfield2}      ${item_name}
+    Click Element    ${buttonsearch2}
