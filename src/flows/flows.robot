@@ -106,6 +106,7 @@ Alza4 Practice Flow
     Verify If the Rest Product Names not Changed   &{Dict_info_of_products}
     Verify If the Rest Product Prices not Changed   &{Dict_info_of_products}
     Close Browser
+#    //df?sdf
 
 Alza5 Practice Flow
     [Arguments]    ${browser}   ${page}     ${timeouts}     ${item_name}
