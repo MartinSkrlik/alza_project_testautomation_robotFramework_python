@@ -90,7 +90,7 @@ Alza3 Practice Flow
     Select First Product    ${item_quantity}
     Add Product to Favourites   ${Product_name}   ${timeouts}
     Check Product Price in Favourite Tab    ${Product_price}    ${timeouts}
-    Check Product Name in Favourite Tab   ${Product_name}   ${timeouts}
+    Check Product Name in Favourite Tab   ${Product_name}   ${timeouts}c
     Close Browser
 
 Alza4 Practice Flow
@@ -113,8 +113,5 @@ Alza5 Practice Flow
     Go to Webside   ${page}
     Close popup cokies
     Put text into textfield and pick item   ${item_name}    ${timeouts}
-
-
-
 
     Close Browser
