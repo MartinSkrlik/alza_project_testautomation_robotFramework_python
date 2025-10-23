@@ -390,3 +390,9 @@ Put text into textfield and pick item
     Input Text    ${textfield2}     ${item_name}
     Textfield Value Should Be    ${textfield2}      ${item_name}
     Click Element    ${buttonsearch2}
+
+
+# remembering purpose
+
+
+
